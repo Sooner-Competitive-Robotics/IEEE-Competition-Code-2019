@@ -3,6 +3,7 @@ import time
 import startup
 import math
 import RPi.GPIO as GPIO
+from NanoManager import NanoManager
 from vision import vision
 from gpiozero import Button
 from picamera import PiCamera
